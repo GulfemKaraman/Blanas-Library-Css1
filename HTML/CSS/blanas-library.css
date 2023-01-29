@@ -1,0 +1,66 @@
+/*Arka plan rengi*/
+body {
+    background-color: #f7bf68;
+}
+
+/*font Family Montserrat lingt300*/
+body {
+    font-family: 'Explora', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Tüm h1 etiketleri büyük harfle yazılacak */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    color: #865a9a;
+}
+
+/* Nav Bar - Ana Menü Ayarları */
+.menu-li a {
+    float: left;
+    color:#66d7e1;
+    text-align: center;
+    padding: 0 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+    }
+
+.menu-li {
+    background-color: #865a9a;
+    overflow: hidden;
+}    
+
+.menu-li a:hover {
+    background-color: #ddd;
+    color: #00cfba;
+}
+
+.alt-baslik {
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #865a9a;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    text-align: center;
+    color: #865a9a;
+}
+
+.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+.center-text {
+    text-align: center;
+}
